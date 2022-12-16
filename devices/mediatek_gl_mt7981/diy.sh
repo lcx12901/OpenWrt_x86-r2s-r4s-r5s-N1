@@ -16,8 +16,3 @@ git am devices/mediatek_gl_mt7981/patches/glinet/*.patch
 
 sed -i "s/BOARD:=mediatek$/BOARD:=mediatek_gl/" target/linux/mediatek/Makefile
 mv -f target/linux/mediatek target/linux/mediatek_gl
-
-
-
-
-连感冒药都没做储备更别提其他医疗资源,就突然完全放开,躺匪真的让人受不了
