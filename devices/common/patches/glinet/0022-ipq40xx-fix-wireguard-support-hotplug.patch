@@ -6,13 +6,13 @@ Subject: [PATCH] ipq40xx fix wireguard support hotplug
 ---
  .../856-wireguard-support-hotplug.patch       | 222 ++++++++++++++++++
  1 file changed, 222 insertions(+)
- create mode 100644 target/linux/generic/hack-5.10/856-wireguard-support-hotplug.patch
+ create mode 100644 target/linux/ipq40xx/patches-5.10/856-wireguard-support-hotplug.patch
 
-diff --git a/target/linux/generic/hack-5.10/856-wireguard-support-hotplug.patch b/target/linux/generic/hack-5.10/856-wireguard-support-hotplug.patch
+diff --git a/target/linux/ipq40xx/patches-5.10/856-wireguard-support-hotplug.patch b/target/linux/ipq40xx/patches-5.10/856-wireguard-support-hotplug.patch
 new file mode 100644
 index 0000000000..0de25b62ec
 --- /dev/null
-+++ b/target/linux/generic/hack-5.10/856-wireguard-support-hotplug.patch
++++ b/target/linux/ipq40xx/patches-5.10/856-wireguard-support-hotplug.patch
 @@ -0,0 +1,222 @@
 +--- a/drivers/net/wireguard/Makefile
 ++++ b/drivers/net/wireguard/Makefile
